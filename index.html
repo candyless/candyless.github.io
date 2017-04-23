@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        window.onload=function(){
+            for(var i = 1; i < 3; i++) {
+                (function(o){
+                    document.getElementById("a" + o).onclick = function () {
+                        alert(o);
+                    }
+                })(i);
+            }
+        };
+/*
+
+var temp={
+    test:function(x){
+        return function(){
+            alert(x)};
+    }
+}
+window.onload=function(){
+    for(var i = 1; i < 3; i++) {
+
+            document.getElementById("a" + i).onclick = temp.test(i);
+
+
+    }
+};*/
+
+/*
+function test(x){
+        return function(){
+            alert(x)};
+
+}
+window.onload=function(){
+    for(var i = 1; i < 3; i++) {
+
+        document.getElementById("a" + i).onclick = test(i);
+
+
+    }
+};
+*/
+    </script>
+</head>
+<body>
+<input type="button" id="a1" value="sss" />
+<input type="button" id="a2" value="sss" />
+<input type="button" id="a3" value="测试encodeURICompment" />
+</body>
+</html>
