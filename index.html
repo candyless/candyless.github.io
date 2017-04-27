@@ -20,7 +20,7 @@ layout: default
         <p>{{ post.description }}</p>
         {% endif %}
         <div class="post-date">
-            <time>{{ post.date | date_to_string }}</time>
+            <time>{{ post.date |  date:"%Y-%m-%d" }}</time>
         </div>
     </div>
     {% endfor %} {% if paginator.total_pages > 1 %}
