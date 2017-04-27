@@ -2,20 +2,21 @@ name:               "candyless"
 description:        "candy monster is running"
 
 url:                ""
-author:             "thinker3197"
-email:              "jhondoe@abc.com"
-twitter:            "jhondoe"
-email:              "jhondoe@abc.com"
-github:             "jhondoe"
-pinterest:          "jhondoe"
-linkedin:           "jhondoe"
-facebook:           "jhondoe"
+author:             "candyless"
+email:              "candyless@163.com"
+twitter:            "candyless"
+email:              "candyless@163.com"
+github:             "candyless"
+pinterest:          "candyless"
+linkedin:           "candyless"
+facebook:           "candyless"
+avatar_url:         /resource/img/avatar-cut.png
 
-disqus_shortname:   "thinker3197"
+disqus_shortname:   "candyless"
 
 background:         "http://apple.wallpapersfine.com/wallpapers/original/1242x2208/w-5273.jpg"
 
-paginate:           5
+paginate:           4
 paginate_path:      "/page:num/"
 
 baseurl:            ""
