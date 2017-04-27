@@ -5,6 +5,8 @@ image:        "http://placehold.it/400x200"
 author:       "candyless"
 ---
 
+
+
     我的小鱼你醒了，  
 	还认识早晨吗？  
 	昨夜你曾经说，  
