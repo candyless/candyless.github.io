@@ -1,6 +1,6 @@
 ---
 title:        "网易云的评论"
-description:  "A short description of the page's content"
+description:  "古典音乐"
 image:        "http://placehold.it/400x200"
 author:       "candyless"
 ---
